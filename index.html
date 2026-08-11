@@ -55,10 +55,10 @@
   <h2>Slider-based PrePost Rendering (SPR) HTML Generator</h2>
 
   <label for="title">Title:</label>
-  <input type="text" id="title" placeholder="e.g., Kunwari Landslide:Date">
+  <input type="text" id="title" placeholder="e.g., Event/Place:Date">
 
   <label for="subtitle">Subtitle:</label>
-  <input type="text" id="subtitle" placeholder="e.g., (Analysis done by NRSC, ISRO)">
+  <input type="text" id="subtitle" placeholder="e.g., (Analysis done by Name)">
 
   <label for="beforeImage">Before Image URL:</label>
   <input type="text" id="beforeImage" placeholder="e.g., before.jpg">
@@ -67,17 +67,17 @@
   <input type="text" id="afterImage" placeholder="e.g., after.jpg">
 
   <label for="beforeLabel">Before Label:</label>
-  <input type="text" id="beforeLabel" placeholder="e.g., PRE: RS-2 LISS-IV (17 Apr 2024)">
+  <input type="text" id="beforeLabel" placeholder="e.g., PRE: Data Source (Date)">
 
   <label for="afterLabel">After Label:</label>
-  <input type="text" id="afterLabel" placeholder="e.g., POST: CartoSat-3 (18 Nov 2024)">
+  <input type="text" id="afterLabel" placeholder="e.g., POST: Data Source (Date)">
 
   <label for="bullets">Key Points (one per line):</label>
   <textarea id="bullets" rows="5"
-    placeholder="• Heavy rainfall triggered landslide&#10;• Damage to road network"></textarea>
+    placeholder="• Any observations made &#10;• point wise"></textarea>
 
   <label for="description">Detailed Description:</label>
-  <textarea id="description" rows="5" placeholder="Enter a paragraph explaining the disaster or event..."></textarea>
+  <textarea id="description" rows="5" placeholder="Enter a paragraph explaining the about image or event..."></textarea>
 
   <button onclick="generateHTML()">Generate HTML</button>
   <button onclick="copyToClipboard()">Copy to Clipboard</button>
